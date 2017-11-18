@@ -1,3 +1,3 @@
-# winggo.github.io\
+# winggo.github.io
 
-Persoanl website
+Personal website
