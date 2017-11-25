@@ -9,10 +9,9 @@ html {
 img {
 	padding: 5px;
 }
-#pic:hover {
-	opacity: 0.5;
-	transition-duration: 0s;
-	transition-delay: 0s;
+.pic:hover {
+
+	filter: brightness(0.7);
 }
 nav {
 	color:#d8d8d8;
