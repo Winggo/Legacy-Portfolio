@@ -13,6 +13,10 @@ img {
 
 	filter: brightness(0.7);
 }
+#bottom {
+	text-align: center;
+	padding: 20px;
+}
 nav {
 	color:#d8d8d8;
 }

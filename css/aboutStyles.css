@@ -1,0 +1,24 @@
+img {
+	margin: 50px;
+	/*margin-top: 50px;*/
+}
+.container .pict {
+	float:left;
+}
+.container .text {
+	/*padding: 70px;*/
+}
+.container .text h2{
+	text-align:left;
+	padding-top: 50px;
+}
+h2 {
+	text-align:center;
+}
+p {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+body{
+	font-family: 'Quicksand', sans-serif;
+}
