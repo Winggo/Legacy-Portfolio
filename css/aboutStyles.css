@@ -1,24 +1,26 @@
 img {
 	margin: 50px;
-	/*margin-top: 50px;*/
+	padding-bottom: 90px;
 }
 .container .pict {
 	float:left;
 }
-.container .text {
-	/*padding: 70px;*/
-}
+
 .container .text h2{
 	text-align:left;
 	padding-top: 50px;
 }
 h2 {
 	text-align:center;
+	padding-left: 100px;
 }
 p {
 	margin-left: 100px;
 	margin-right: 100px;
 }
-body{
+nav{
 	font-family: 'Quicksand', sans-serif;
+}
+.text {
+	font-family: 'Pontano Sans', sans-serif;
 }
