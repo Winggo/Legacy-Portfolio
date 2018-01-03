@@ -1,1 +1,2 @@
-new Pjax({selectors: ["container"]})
+new Pjax({selectors: [".container"]})
+alert("works!");
