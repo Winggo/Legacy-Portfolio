@@ -1,0 +1,1 @@
+new Pjax({selectors: ["container"]})
