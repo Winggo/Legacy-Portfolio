@@ -1,0 +1,25 @@
+{
+  "name": "winggo.github.io",
+  "version": "1.0.0",
+  "description": "Personal creative website",
+  "main": "pjax.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winggo/winggo.github.io.git"
+  },
+  "keywords": [
+    "project"
+  ],
+  "author": "Winggo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winggo/winggo.github.io/issues"
+  },
+  "homepage": "https://github.com/winggo/winggo.github.io#readme",
+  "dependencies": {
+    "pjax": "^0.2.4"
+  }
+}
