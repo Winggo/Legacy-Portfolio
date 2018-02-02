@@ -9,5 +9,5 @@ $("#mygallery").justifiedGallery({
 
 new Pjax({
   selectors: [".container"]
-})
+});
 alert("works!");
