@@ -7,7 +7,8 @@ $("#mygallery").justifiedGallery({
     $(this).ekkoLightbox();
 });
 
-new Pjax({
-  selectors: [".container"]
-});
+// new Pjax({
+//   selectors: [".container"]
+// });
+$(document).pjax('a', '#pjax-container');
 alert("works!");

@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/winggo/winggo.github.io#readme",
   "dependencies": {
+    "jquery-pjax": "^2.0.1",
     "pjax": "^0.2.4"
   }
 }
