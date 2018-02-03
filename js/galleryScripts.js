@@ -11,4 +11,3 @@ $("#mygallery").justifiedGallery({
 //   selectors: [".container"]
 // });
 $(document).pjax('a', '#pjax-container');
-alert("works!");

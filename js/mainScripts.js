@@ -3,4 +3,3 @@
 // });
 
 $(document).pjax('a', '#pjax-container');
-alert("works!");
