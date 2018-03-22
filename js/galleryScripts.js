@@ -1,3 +1,13 @@
+$(".spinner").show();
+$("#bottom").hide();
+
+$(window).on("load", function(){
+	$(".spinner").hide();
+	$("#bottom").show();
+	console.log("on load is ready");
+});
+
+
 $("#mygallery").justifiedGallery({
 	rowHeight: 500,
 	margins: 5,
