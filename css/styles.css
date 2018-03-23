@@ -43,6 +43,14 @@ hr {
 nav {
 	color:#d8d8d8;
 }
+#vsco {
+	padding-bottom: 5px;
+	padding-right: 5px;
+}
+#instagram {
+	padding-bottom: 4px;
+	padding-right: 4px;
+}
 
 .spinner {
   width: 40px;

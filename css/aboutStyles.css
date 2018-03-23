@@ -24,3 +24,13 @@ nav{
 .text {
 	font-family: 'Pontano Sans', sans-serif;
 }
+#vsco {
+	padding-bottom: 5px;
+	padding-right: 5px;
+	margin: 0px;
+}
+#instagram {
+	padding-bottom: 4px;
+	padding-right: 4px;
+	margin: 0px;
+}

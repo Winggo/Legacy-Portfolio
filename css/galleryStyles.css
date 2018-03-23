@@ -6,7 +6,7 @@ body {
 html {
 	height: 100%;
 }
-img {
+.pic img {
 	padding: 5px;
 }
 .pic:hover {
@@ -20,6 +20,20 @@ img {
 nav {
 	color:#d8d8d8;
 }
+#vsco {
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+/*#vsco:hover {
+  filter: contrast(0);
+}*/
+#instagram {
+  padding-bottom: 4px;
+  padding-right: 4px;
+}
+/*#instagram:hover {
+  filter: contrast(0);
+}*/
 
 .spinner {
   width: 40px;
