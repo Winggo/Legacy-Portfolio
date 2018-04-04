@@ -4,13 +4,15 @@ body {
 	background: url("../galleryPics/webCover.jpg");
 	background-size: cover;
 	background-position: top;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Fanwood Text', serif;
 	opacity: 1;
 }
 html {
 	height: 100%;
 }
 #main {
+	/*font-family: 'Quicksand', sans-serif;*/
+	font-family: 'Fanwood Text', serif;
 	text-align: center;
 	padding-top: 15%;
 	font-weight:600;
@@ -23,8 +25,16 @@ html {
 #end {
 	padding-top: 39%;
 	text-align: center;
-
 }
+.navbar {
+  background-color: #FFF !important;
+}
+.navbar-toggler {
+  border-color: #FFF !important;
+  outline: none !important;
+}
+
+
 h1 {
 	font-size:50px;
 	font-weight:500;
@@ -48,8 +58,8 @@ nav {
 	padding-right: 5px;
 }
 #instagram {
-	padding-bottom: 4px;
-	padding-right: 4px;
+	padding-bottom: 0px;
+	padding-right: 0px;
 }
 
 .spinner {

@@ -2,6 +2,13 @@ img {
 	margin: 50px;
 	padding-bottom: 50px;
 }
+.navbar {
+  background-color: #FFF !important;
+}
+.navbar-toggler {
+  border-color: #FFF !important;
+  outline: none !important;
+}
 .container .pict {
 	float:left;
 }
@@ -19,10 +26,11 @@ p {
 	margin-right: 100px;
 }
 nav{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Fanwood Text', serif;
 }
 .text {
-	font-family: 'Pontano Sans', sans-serif;
+	/*font-family: 'Pontano Sans', sans-serif;*/
+	font-family: 'Fanwood Text', serif;
 }
 #vsco {
 	padding-bottom: 5px;
@@ -30,7 +38,7 @@ nav{
 	margin: 0px;
 }
 #instagram {
-	padding-bottom: 4px;
-	padding-right: 4px;
+	padding-bottom: 0px;
+	padding-right: 0px;
 	margin: 0px;
 }

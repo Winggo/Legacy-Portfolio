@@ -1,7 +1,7 @@
 body {
 	margin-left: auto;
 	margin-right: auto;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Fanwood Text', serif;
 }
 html {
 	height: 100%;
@@ -9,10 +9,44 @@ html {
 .pic img {
 	padding: 5px;
 }
-.pic:hover {
-
-	filter: brightness(0.7);
+.navbar {
+  background-color: #FFF !important;
 }
+.navbar-toggler {
+  border-color: #FFF !important;
+  outline: none !important;
+}
+
+
+/*hover zoom in effects*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.item {
+  overflow: hidden;
+}
+.item a img {
+  max-width: 100%;
+  opacity: 0;
+  /*-moz-transition: all 0.3s;*/
+  /*-webkit-transition: all 0.3s;*/
+  -moz-transition: opacity 500ms ease-in,
+              transform 0.2s !important;
+  -webkit-transition: opacity 500ms ease-in,
+              transform 0.2s !important;
+  transition: opacity 500ms ease-in,
+              transform 0.2s !important;
+}
+.item:hover a img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  /*filter: brightness(0.7);*/
+}
+
+
 #bottom {
 	text-align: center;
 	padding: 20px;
@@ -21,15 +55,17 @@ nav {
 	color:#d8d8d8;
 }
 #vsco {
-  padding-bottom: 5px;
-  padding-right: 5px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  transform: scale(1.0909);
 }
 /*#vsco:hover {
   filter: contrast(0);
 }*/
 #instagram {
-  padding-bottom: 4px;
-  padding-right: 4px;
+  /*transform: scale(1.0909);*/
+  padding-bottom: 0px;
+  padding-right: 0px;
 }
 /*#instagram:hover {
   filter: contrast(0);
