@@ -7,16 +7,16 @@ $(window).on("load", function(){
 	console.log("on load is ready");
 });
 
-var feed = new Instafeed({
-	clientId: '6a4d78c4b5f84abf877c48c545ee268b',
-	accessToken: '3685282344.6a4d78c.22ef44601675418c97780808576214fd',
-	get: 'user',
-	userId: '3685282344',
-	// template: '<div class="item"><a href="{{link}}"><img src="{{image}}" /></a></div>'
-	template: '<a href="{{image}}"><img src="{{image}}" /></a>'
-	// resolution: 'standard_resolution'
-});
-feed.run();
+// var feed = new Instafeed({
+// 	clientId: '6a4d78c4b5f84abf877c48c545ee268b',
+// 	accessToken: '3685282344.6a4d78c.22ef44601675418c97780808576214fd',
+// 	get: 'user',
+// 	userId: '3685282344',
+// 	// template: '<div class="item"><a href="{{link}}"><img src="{{image}}" /></a></div>'
+// 	template: '<a href="{{image}}"><img src="{{image}}" /></a>'
+// 	// resolution: 'standard_resolution'
+// });
+// feed.run();
 
 $("#mygallery").justifiedGallery({
 	rowHeight: 500,
