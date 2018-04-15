@@ -41,3 +41,10 @@ nav{
 	padding-right: 0px;
 	margin: 0px;
 }
+#pjax-container {
+	opacity: 0;
+
+	transition: 0.8s linear;
+    -webkit-transition: 0.8s linear;
+    -moz-transition: 0.8s linear;
+}
