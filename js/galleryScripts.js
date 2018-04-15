@@ -12,7 +12,7 @@ $(window).on("load", function(){
 // 	accessToken: '3685282344.6a4d78c.22ef44601675418c97780808576214fd',
 // 	get: 'user',
 // 	userId: '3685282344',
-// 	// template: '<div class="item"><a href="{{link}}"><img src="{{image}}" /></a></div>'
+// 	// template: '<div class="item"><a href="{{image}}"><img src="{{image}}" /></a></div>'
 // 	template: '<a href="{{image}}"><img src="{{image}}" /></a>'
 // 	// resolution: 'standard_resolution'
 // });
@@ -60,3 +60,5 @@ btn.on('click', function(e) {
   $('html, body').animate({scrollTop:0}, 300);
   console.log('button click works');
 });
+
+$(document).pjax('a', '#pjax-container');

@@ -54,10 +54,9 @@ html {
 nav {
 	color:#d8d8d8;
 }
-#vsco {
-  padding-bottom: 8px;
-  padding-right: 8px;
-  transform: scale(1.0909);
+#linkedin {
+  padding-bottom: 0px;
+  padding-right: 0px;
 }
 /*#vsco:hover {
   filter: contrast(0);

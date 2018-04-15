@@ -1,6 +1,6 @@
-img {
-	margin: 50px;
-	padding-bottom: 50px;
+.pict img {
+	margin: 60px;
+	margin-top: 100px;
 }
 .navbar {
   background-color: #FFF !important;
@@ -29,13 +29,12 @@ nav{
 	font-family: 'Fanwood Text', serif;
 }
 .text {
-	/*font-family: 'Pontano Sans', sans-serif;*/
+	border-bottom: 20px;
 	font-family: 'Fanwood Text', serif;
 }
-#vsco {
-	padding-bottom: 5px;
-	padding-right: 5px;
-	margin: 0px;
+#linkedin {
+	padding-bottom: 0px;
+	padding-right: 0px;
 }
 #instagram {
 	padding-bottom: 0px;
