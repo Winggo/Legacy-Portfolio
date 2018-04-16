@@ -61,4 +61,4 @@ btn.on('click', function(e) {
   console.log('button click works');
 });
 
-$(document).pjax('a', '#pjax-container');
+$(document).pjax('[data-pjax] a, a[data-pjax]', '#pjax-container');

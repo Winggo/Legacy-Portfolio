@@ -4,4 +4,4 @@
 
 $("#pjax-container").css("opacity","1");
 
-$(document).pjax('a', '#pjax-container');
+$(document).pjax('[data-pjax] a, a[data-pjax]', '#pjax-container');

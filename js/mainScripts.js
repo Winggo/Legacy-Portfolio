@@ -12,4 +12,4 @@ $(window).on("load", function(){
 	console.log("on load is ready");
 });
 
-$(document).pjax('a', '#pjax-container');
+$(document).pjax('[data-pjax] a, a[data-pjax]', '#pjax-container');
