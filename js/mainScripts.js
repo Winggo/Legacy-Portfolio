@@ -1,7 +1,3 @@
-// new Pjax({
-//   selectors: [".container"]
-// });
-
 $("#main").hide();
 $(".spinner").show();
 

@@ -12,6 +12,9 @@
 .container .pict {
 	float:left;
 }
+.lastPara{
+	margin-bottom: 50px;
+}
 
 .container .text h2{
 	text-align:left;
@@ -48,3 +51,13 @@ nav{
     -webkit-transition: 0.8s linear;
     -moz-transition: 0.8s linear;
 }
+
+
+/*@media only screen and (max-width: 400) {
+	#pjax-container {
+		width: 400px;
+	}
+	.pict img {
+		width: 100% !important;
+	}
+}*/
