@@ -8,6 +8,9 @@ hr{
 h1{
   font-size: 3rem;
 }
+.main{
+  display: none;
+}
 .link{
   color: rgb(33,37,41);
 }
