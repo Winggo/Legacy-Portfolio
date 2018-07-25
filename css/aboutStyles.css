@@ -35,15 +35,31 @@ nav{
 	border-bottom: 20px;
 	font-family: 'Fanwood Text', serif;
 }
-#linkedin {
-	padding-bottom: 0px;
-	padding-right: 0px;
+
+/*linkedin*/
+#linkedin{
+  opacity: 0.5;
 }
-#instagram {
-	padding-bottom: 0px;
-	padding-right: 0px;
-	margin: 0px;
+#linkedin:hover{
+  opacity: 0.9;
 }
+
+/*instagram*/
+#instagram{
+  opacity: 0.5;
+}
+#instagram:hover{
+  opacity: 0.9;
+}
+
+/*unsplash*/
+#unsplash{
+  opacity: 0.5;
+}
+#unsplash:hover{
+  opacity: 0.9;
+}
+
 .main {
 	opacity: 0;
 

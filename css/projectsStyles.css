@@ -66,6 +66,30 @@ h1{
   transform: scale(1.05);
 }
 
+/*linkedin*/
+#linkedin{
+  opacity: 0.5;
+}
+#linkedin:hover{
+  opacity: 0.9;
+}
+
+/*instagram*/
+#instagram{
+  opacity: 0.5;
+}
+#instagram:hover{
+  opacity: 0.9;
+}
+
+/*unsplash*/
+#unsplash{
+  opacity: 0.5;
+}
+#unsplash:hover{
+  opacity: 0.9;
+}
+
 
 
 /*Navbar modify color*/

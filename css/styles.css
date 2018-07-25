@@ -62,13 +62,30 @@ hr {
 nav {
 	color:#d8d8d8;
 }
+
+/*linkedIn*/
 #linkedin {
-	padding-bottom: 0px;
-	padding-right: 0px;
+	opacity: 0.5;
 }
+#linkedin:hover {
+	opacity: 0.9;
+}
+
+/*instagram*/
 #instagram {
-	padding-bottom: 0px;
-	padding-right: 0px;
+	opacity: 0.5;
+}
+#instagram:hover {
+	opacity: 0.9;
+}
+
+/*unsplash*/
+#unsplash {
+	opacity: 0.5;
+}
+
+#unsplash:hover {
+	opacity: 0.9;
 }
 
 .spinner {
