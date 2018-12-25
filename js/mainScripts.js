@@ -4,8 +4,5 @@ $(".spinner").show();
 $(window).on("load", function(){
 	$(".spinner").hide();
 	$("#main").show();
-	$("#main").css("opacity","1");
-	console.log("on load is ready");
+	$("#main").css("opacity","0.9");
 });
-
-$(document).pjax('[data-pjax] a, a[data-pjax]', '#pjax-container');

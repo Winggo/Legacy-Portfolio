@@ -1,30 +1,28 @@
 body {
-	margin-left: auto;
-	margin-right: auto;
-	background: url("../galleryPics/webCover.jpg");
-	background-size: cover;
-	background-position: top;
+	/*background: url("../galleryPics/webCover.jpg");*/
+	/*background-size: cover;*/
 	font-family: 'Fanwood Text', serif;
-
-/*	transition: 0.8s linear;
-    -webkit-transition: 0.8s linear;
-    -moz-transition: 0.8s linear;*/
 }
 
-html {
+html, body {
 	height: 100%;
+	width: 100%;
+	margin: 0;
 }
 
 #main {
-	font-family: 'Fanwood Text', serif;
+	cursor: default;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	text-align: center;
-	padding-top: 15%;
-	font-weight:600;
-	text-outline: 3px 3px #000000;
-	color: #000000;
-	text-shadow: 0px 0px 6px white,
+	text-outline: 20px 20px #0000;
+	color: #fff;
+	text-shadow: 0 -1 black, -1 0 black, 0 1px black, 1px 0 black;
+	/*text-shadow: 0px 0px 6px white,
 				 0px 5px  12px rgba(0,0,0,0.4),
-				 0px 10px 20px rgba(0,0,0,0.2);
+				 0px 10px 20px rgba(0,0,0,0.2);*/
 
 	opacity: 0;
 	transition: 0.8s linear;
@@ -32,31 +30,46 @@ html {
     -moz-transition: 0.8s linear;
 }
 #end {
-	padding-top: 39%;
-	text-align: center;
+	/*padding-top: 39%;*/
 }
 .navbar {
-  background-color: #FFF !important;
+  /*background-color: #FFF !important;*/
+  opacity: .95;
 }
+
+.nav-link {
+	color: white !important;
+	text-shadow: 0 -1 black, -1 0 black, 0 1px black, 1px 0 black;
+}
+
+.navbar-brand {
+	color: white !important;
+	text-shadow: 0 -1 black, -1 0 black, 0 1px black, 1px 0 black;
+}
+
 .navbar-toggler {
   border-color: #FFF !important;
   outline: none !important;
 }
 
-
-h1 {
-	font-size:50px;
-	font-weight:500;
+.navbar-toggler-icon {
+	filter: brightness(0) invert(1);
 }
-h5 {
-	text-shadow: 0px 0px 0px rgb(15,15,15),
-				 3px 3px 12px rgb(230,230,230),
-				 10px 10px 20px white;
+
+
+#main h1 {
+	font-size:50px;
+	font-weight:10;
+	letter-spacing: .3em;
+}
+#main h5 {
+	font-size:15px;
+	font-weight:5;
 }
 hr {
-	width: 50%;
+	width: 75%;
 	border-top: 1px solid;
-	color: rgb(50,50,50);
+	color: rgb(255,255,255);
 	/*height: 50px;*/
 }
 nav {
@@ -65,35 +78,43 @@ nav {
 
 /*linkedIn*/
 #linkedin {
-	opacity: 0.5;
+	opacity: 0.8;
+	filter: brightness(0) invert(1);
 }
 #linkedin:hover {
-	opacity: 0.9;
+	opacity: 1;
+	filter: brightness(0) invert(1);
 }
 
 /*instagram*/
 #instagram {
-	opacity: 0.5;
+	opacity: 0.8;
+	filter: brightness(0) invert(1);
 }
 #instagram:hover {
-	opacity: 0.9;
+	opacity: 1;
+	filter: brightness(0) invert(1);
 }
 
 /*unsplash*/
 #unsplash {
-	opacity: 0.5;
+	opacity: 0.8;
+	filter: brightness(0) invert(1);
 }
 
 #unsplash:hover {
-	opacity: 0.9;
+	opacity: 1;
+	filter: brightness(0) invert(1);
 }
 
 .spinner {
   width: 40px;
   height: 40px;
 
-  position: relative;
-  margin: 100px auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 .double-bounce1, .double-bounce2 {
