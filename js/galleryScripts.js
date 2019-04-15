@@ -4,7 +4,6 @@ $("#bottom").hide();
 $(window).on("load", function(){
 	$(".spinner").hide();
 	$("#bottom").show();
-	console.log("on load is ready");
 });
 
 // var feed = new Instafeed({
@@ -60,5 +59,3 @@ btn.on('click', function(e) {
   $('html, body').animate({scrollTop:0}, 300);
   console.log('button click works');
 });
-
-$(document).pjax('[data-pjax] a, a[data-pjax]', '#pjax-container');

@@ -1,6 +1,7 @@
 .pict img {
 	margin: 30px;
 	margin-top: 50px;
+	margin-bottom: 250px;
 }
 .navbar {
   background-color: #FFF !important;
@@ -11,9 +12,6 @@
 }
 .container .pict {
 	float:left;
-}
-.lastPara{
-	/*margin-bottom: 50px;*/
 }
 
 .container .text h2{
