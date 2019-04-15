@@ -1,7 +1,7 @@
 .pict img {
 	margin: 30px;
 	margin-top: 50px;
-	margin-bottom: 250px;
+	margin-bottom: 175px;
 }
 .navbar {
   background-color: #FFF !important;
@@ -17,14 +17,6 @@
 .container .text h2{
 	/*text-align:left;*/
 	padding-top: 50px;
-}
-h2 {
-	/*text-align:center;*/
-	/*padding-left: 100px;*/
-}
-p {
-	/*margin-left: 100px;*/
-	/*margin-right: 100px;*/
 }
 nav{
 	font-family: 'Fanwood Text', serif;
