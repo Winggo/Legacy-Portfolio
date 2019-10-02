@@ -1,7 +1,6 @@
-.pict img {
+#me {
+	width: 300px;
 	margin: 30px;
-	margin-top: 50px;
-	margin-bottom: 175px;
 }
 .navbar {
   background-color: #FFF !important;
@@ -15,18 +14,15 @@
 }
 
 .container .text h2{
-	/*text-align:left;*/
-	padding-top: 50px;
+	padding-top: 30px;
 }
 nav{
 	font-family: 'Fanwood Text', serif;
 }
 .text {
-	/*border-bottom: 20px;*/
 	font-family: 'Fanwood Text', serif;
 }
 
-/*linkedin*/
 #linkedin{
   opacity: 0.5;
 }
@@ -34,7 +30,6 @@ nav{
   opacity: 0.9;
 }
 
-/*instagram*/
 #instagram{
   opacity: 0.5;
 }
@@ -42,7 +37,6 @@ nav{
   opacity: 0.9;
 }
 
-/*unsplash*/
 #unsplash{
   opacity: 0.5;
 }
@@ -57,13 +51,3 @@ nav{
     -webkit-transition: 0.8s linear;
     -moz-transition: 0.8s linear;
 }
-
-
-/*@media only screen and (max-width: 400) {
-	.main {
-		width: 400px;
-	}
-	.pict img {
-		width: 100% !important;
-	}
-}*/

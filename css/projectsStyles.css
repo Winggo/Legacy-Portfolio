@@ -51,6 +51,7 @@ h1{
 .item .pic{
   max-width: 100%;
   height: auto;
+  margin-bottom: 15px;
   
 
   -moz-transition: opacity 500ms ease-in,
