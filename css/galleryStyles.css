@@ -80,6 +80,17 @@ nav {
   opacity: 0.9;
 }
 
+#header {
+  margin: 20px;
+  text-align: center;
+}
+
+hr {
+	width: 75%;
+	border-top: 1px solid;
+	color: rgb(255,255,255);
+}
+
 .spinner {
   width: 40px;
   height: 40px;
