@@ -5,16 +5,32 @@ hr{
   margin-top: 60px; 
   margin-bottom: 60px; 
 }
-h1{
-  font-size: 3rem;
-}
+
 .main{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+
   opacity: 0;
 
   transition: 0.8s linear;
   -webkit-transition: 0.8s linear;
   -moz-transition: 0.8s linear;
 }
+
+.project {
+  margin: 10px;
+}
+
+.main h1 {
+  font-size: 1.5em;
+}
+.main h3 {
+  font-size: 1.2em;
+}
+.main h5 {
+  font-size: 1.0em;
+}
+
 .link{
   color: rgb(33,37,41);
 }
@@ -31,6 +47,7 @@ h1{
 }
 .footer{
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -47,7 +64,7 @@ h1{
 .item{
   overflow: hidden;
   margin: 20px;
-  border: solid silver;
+  border: solid rgba(0, 0, 0, .05);
 }
 .item .pic{
   max-width: 100%;
@@ -108,9 +125,11 @@ h1{
 .spinner {
   width: 40px;
   height: 40px;
+  margin-left: 50vw;
+  margin-top: 40vh;
 
   position: relative;
-  margin: 100px auto;
+  /* margin: 100px auto; */
 }
 
 .double-bounce1, .double-bounce2 {
