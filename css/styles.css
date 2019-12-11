@@ -43,6 +43,33 @@ html, body {
 	text-shadow: 0 -1 black, -1 0 black, 0 1px black, 1px 0 black;
 }
 
+.icon {
+	opacity: 0.8;
+	filter: brightness(0) invert(1);
+}
+.icon:hover {
+	opacity: 1;
+	filter: brightness(0) invert(1);
+}
+
+@media only screen and (max-width: 991px) {
+	.nav-link {
+		color: black !important;
+	}
+	.icon {
+		opacity: 0.8;
+		filter: brightness(0) invert(0);
+	}
+	.icon:hover {
+		opacity: 1;
+		filter: brightness(0) invert(0);
+	}
+}
+
+.left-bar {
+	color: black !important;
+}
+
 .navbar-toggler {
   border-color: #FFF !important;
   outline: none !important;
@@ -51,11 +78,6 @@ html, body {
 .navbar-toggler-icon {
 	filter: brightness(0) invert(1);
 }
-
-.left-bar {
-	color: black !important;
-}
-
 
 #main h1 {
 	font-size:50px;
@@ -75,47 +97,6 @@ hr {
 }
 nav {
 	color:#d8d8d8;
-}
-
-/*linkedIn*/
-#linkedin {
-	opacity: 0.8;
-	filter: brightness(0) invert(1);
-}
-#linkedin:hover {
-	opacity: 1;
-	filter: brightness(0) invert(1);
-}
-
-/*instagram*/
-#instagram {
-	opacity: 0.8;
-	filter: brightness(0) invert(1);
-}
-#instagram:hover {
-	opacity: 1;
-	filter: brightness(0) invert(1);
-}
-
-/*unsplash*/
-#unsplash {
-	opacity: 0.8;
-	filter: brightness(0) invert(1);
-}
-
-#unsplash:hover {
-	opacity: 1;
-	filter: brightness(0) invert(1);
-}
-
-#github {
-	opacity: 0.8;
-	filter: brightness(0) invert(1);
-}
-
-#github:hover {
-	opacity: 1;
-	filter: brightness(0) invert(1);
 }
 
 .spinner {

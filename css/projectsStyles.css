@@ -6,6 +6,11 @@ hr{
   margin-bottom: 60px; 
 }
 
+img {
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
+
 .main{
   display: grid;
   grid-template-columns: 33% 33% 33%;
@@ -15,6 +20,17 @@ hr{
   transition: 0.8s linear;
   -webkit-transition: 0.8s linear;
   -moz-transition: 0.8s linear;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main {
+    grid-template-columns: 50% 50%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .main {
+    grid-template-columns: 100%;
+  }
 }
 
 .project {
@@ -165,3 +181,4 @@ hr{
     -webkit-transform: scale(1.0);
   }
 }
+
